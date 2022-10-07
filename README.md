@@ -15,4 +15,4 @@ This application will allow students to take advantage of the college's faciliti
 This android project concept is one of those rare ideas that has the potential to change the way people do things and interact with one another.
 
 ##### Flow Diagram 
-![IMAGE](Flow Chart.PNG)
+![IMAGE](Flow_Chart.PNG)
