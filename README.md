@@ -35,4 +35,4 @@ Screen 3 – Reset Confirmation
 15.	Organizations
 
 ##### Flow Diagram 
-![IMAGE](FlowChart.PNG)
+![My Image](FlowChart.png)
