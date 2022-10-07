@@ -14,5 +14,5 @@ This one application can help new and fresher students make their college lives 
 This application will allow students to take advantage of the college's facilities right from the start.
 This android project concept is one of those rare ideas that has the potential to change the way people do things and interact with one another.
 
-##### Flow diagram 
-![IMAGE](flowdiagram.PNG)
+##### Flow Diagram 
+![IMAGE](Flow Chart.PNG)
