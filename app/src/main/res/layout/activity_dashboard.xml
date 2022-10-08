@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewback3584"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textViewInterac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interac"
+        android:textColor="#9C27B0"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewback3584" />
+
+    <SearchView
+        android:id="@+id/search584"
+        android:layout_width="289dp"
+        android:layout_height="31dp"
+        android:background="#37EDF0F3"
+        android:backgroundTint="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewInterac"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <ImageView
+        android:id="@+id/imageViewAboutus"
+        android:layout_width="122dp"
+        android:layout_height="96dp"
+        app:circularflow_radiusInDP="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView5AcadCal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266"
+        app:srcCompat="@drawable/about_us" />
+
+    <ImageView
+        android:id="@+id/imageView5AcadCal"
+        android:layout_width="123dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/acamedic_calendar" />
+
+    <TextView
+        android:id="@+id/textView6Aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewAboutus"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <TextView
+        android:id="@+id/textView8Acacal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Academic Calendar"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView5AcadCal"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageViewCampRes"
+        android:layout_width="116dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6Aboutus"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/campus_resources" />
+
+    <TextView
+        android:id="@+id/textViewCampres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Resources"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewCampRes"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <ImageView
+        android:id="@+id/imageViewConPpl"
+        android:layout_width="124dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/connect_people1" />
+
+    <TextView
+        android:id="@+id/textViewConppl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect People"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewConPpl"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageView
+        android:id="@+id/imageView8FC"
+        android:layout_width="128dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewCampres"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/food_courts" />
+
+    <TextView
+        android:id="@+id/textViewFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food courts"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView8FC"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <ImageView
+        android:id="@+id/imageViewEvents"
+        android:layout_width="133dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewConppl"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/events" />
+
+    <TextView
+        android:id="@+id/textView1Events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewEvents"
+        app:layout_constraintVertical_bias="0.054" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
