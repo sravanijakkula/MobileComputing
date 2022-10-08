@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">INTERAC</string>
+    <string-array name="category">
+        <item>Alumni</item>
+        <item>Employees</item>
+        <item>Faculty</item>
+        <item>Resident Assistant</item>
+        <item>Students</item>
+        <item>UPD</item>
+    </string-array>
 </resources>

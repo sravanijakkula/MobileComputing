@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/S546984/AndroidStudioProjects/INTERAC/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/layout/activity_campus_resources.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/layout/activity_organization.xml" value="0.1796875" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/layout/activity_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/layout/activity_reset3.xml" value="0.1796875" />
+        <entry key="..\:/Users/S546518/Desktop/Academics/Semester 3/Android/Project/INTERAC/app/src/main/res/menu/navigation_menu.xml" value="0.165625" />
       </map>
     </option>
   </component>
