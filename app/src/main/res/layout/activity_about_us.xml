@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView5Back1514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,7 +18,7 @@
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView3Au514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About Us"
@@ -28,11 +28,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView5"
+        app:layout_constraintTop_toBottomOf="@id/imageView5Back1514"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView4Au514"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Northwest Missouri State university founded in 1905.is a comprehensive four year regional university supported by the state and accrediated by  the higher  learning comission(HLC). It provides a wide  range of undergrad and grad programs on its maryville campus as well as at its northwest kansas location  at the northland innovation center and online through northwest online program"
@@ -41,23 +41,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:layout_constraintTop_toBottomOf="@id/textView3Au514"
         app:layout_constraintVertical_bias="0.02" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageViewQA514"
         android:layout_width="120dp"
         android:layout_height="109dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/textView4Au514"
         app:layout_constraintVertical_bias="0.173"
         app:srcCompat="@drawable/quality_academics" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView5Qad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quality Academics"
@@ -68,11 +68,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.729"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/textView4Au514"
         app:layout_constraintVertical_bias="0.064" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView6Lb514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="___________________________________"
@@ -82,11 +82,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView5"
+        app:layout_constraintTop_toBottomOf="@id/textView5Qad"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView7Qad514"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="northwest has 120 undergraduate and 40 graduate programs.career services hosts a &quot; exploring majors &quot;fair  where students can learn about various majors and find 1 that is a good fit for them."
@@ -95,23 +95,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView6"
+        app:layout_constraintTop_toBottomOf="@id/textView6Lb514"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView7lap514"
         android:layout_width="123dp"
         android:layout_height="109dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView6"
+        app:layout_constraintTop_toBottomOf="@id/imageViewQA514"
         app:layout_constraintVertical_bias="0.246"
         app:srcCompat="@drawable/laptop" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView8Lap514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Laptop"
@@ -122,11 +122,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.674"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView7"
+        app:layout_constraintTop_toBottomOf="@id/textView7Qad514"
         app:layout_constraintVertical_bias="0.121" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView9laplb514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="___________________________________"
@@ -136,11 +136,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView8"
+        app:layout_constraintTop_toBottomOf="@id/textView8Lap514"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView10Lapdes514"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Every full-time student is given a laptop computer  to use for the duration of the school year .  To learn more go to the campus laptop computers program."
@@ -149,11 +149,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.853"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView9"
+        app:layout_constraintTop_toBottomOf="@id/textView9laplb514"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView11Nwms514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Northwest Missouri state university"
@@ -162,11 +162,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView10"
+        app:layout_constraintTop_toBottomOf="@id/textView10Lapdes514"
         app:layout_constraintVertical_bias="0.135" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView12Ud514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="800 university drive"
@@ -175,11 +175,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView11"
+        app:layout_constraintTop_toBottomOf="@id/textView11Nwms514"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textView13Mo514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Maryville MO 64468 USA"
@@ -188,19 +188,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView12"
+        app:layout_constraintTop_toBottomOf="@id/textView12Ud514"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView14Phn514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="660.562.1212"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView13"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@id/textView13Mo514" />
 </androidx.constraintlayout.widget.ConstraintLayout>
