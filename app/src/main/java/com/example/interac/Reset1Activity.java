@@ -1,4 +1,4 @@
-package com.example.resetscreen1;
+package com.example.interac;
 
 import android.os.Bundle;
 
@@ -12,7 +12,3 @@ public class Reset1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
-
-
-
-
