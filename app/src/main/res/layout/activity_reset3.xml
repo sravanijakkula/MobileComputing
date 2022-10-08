@@ -5,6 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="81dp"
+        android:backgroundTint="#9C27B0"
+        android:text="LOGIN"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView10"
+        tools:ignore="MissingConstraints" />
+
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
@@ -12,21 +29,6 @@
         app:srcCompat="@drawable/car_ui_icon_arrow_back"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="32dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="66dp"
-        android:background="@drawable/rounded_corner"
-        android:backgroundTint="#AC38BF"
-        android:text="LOGIN"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView10"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -60,6 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Your password has been reset successfully!"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -73,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="67dp"
         android:layout_marginTop="8dp"
+        android:textColor="@color/black"
         android:layout_marginEnd="67dp"
         android:text="Now login with your new password"
         android:textSize="18sp"
