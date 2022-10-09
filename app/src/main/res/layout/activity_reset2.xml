@@ -40,7 +40,7 @@
         android:layout_marginTop="63dp"
         android:text="We have sent a four digit code on your email"
         android:textAlignment="center"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="@id/textView"
