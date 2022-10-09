@@ -25,5 +25,15 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
+
+        ImageView imageView584=(ImageView) findViewById(R.id.imageView584);
+        imageView584.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(RegisterActivity.this,LaunchScreen.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    
+
     <ImageView
         android:id="@+id/imageViewback3584"
         android:layout_width="33dp"
@@ -22,6 +22,9 @@
         android:id="@+id/textViewInterac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="165dp"
         android:text="Interac"
         android:textColor="#2D3C8E"
         android:textSize="25dp"
@@ -29,229 +32,205 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageViewback3584" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
         android:id="@+id/search584"
         android:layout_width="289dp"
         android:layout_height="31dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="55dp"
         android:background="#37EDF0F3"
         android:backgroundTint="@color/purple_500"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewInterac"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewInterac" />
 
     <ImageView
         android:id="@+id/imageViewAboutus"
-        android:layout_width="93dp"
-        android:layout_height="84dp"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
         app:circularflow_radiusInDP="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintEnd_toStartOf="@id/imageView5AcadCal"
+        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/search584"
-        app:layout_constraintVertical_bias="0.029"
         app:srcCompat="@drawable/about_us" />
 
     <ImageView
         android:id="@+id/imageView5AcadCal"
-        android:layout_width="93dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.696"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/imageViewAboutus"
+        app:layout_constraintTop_toBottomOf="@id/search584"
         app:srcCompat="@drawable/acamedic_calendar" />
 
     <TextView
         android:id="@+id/textView6Aboutus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="About us"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageViewAboutus"
-        app:layout_constraintVertical_bias="0.029" />
+        app:layout_constraintEnd_toEndOf="@id/imageViewAboutus"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="@id/imageViewAboutus"
+        app:layout_constraintTop_toBottomOf="@id/imageViewAboutus" />
 
     <TextView
         android:id="@+id/textView8Acacal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
         android:text="Academic Calendar"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.775"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView5AcadCal"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintStart_toStartOf="@id/imageView5AcadCal"
+        app:layout_constraintTop_toBottomOf="@id/imageView5AcadCal" />
 
     <ImageView
         android:id="@+id/imageViewCampRes"
-        android:layout_width="93dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/imageViewAboutus"
+        app:layout_constraintStart_toStartOf="@id/imageViewAboutus"
         app:layout_constraintTop_toBottomOf="@id/textView6Aboutus"
-        app:layout_constraintVertical_bias="0.06"
         app:srcCompat="@drawable/campus_resources" />
 
     <TextView
         android:id="@+id/textViewCampres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Campus Resources"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageViewCampRes"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintEnd_toEndOf="@id/imageViewCampRes"
+        app:layout_constraintStart_toStartOf="@id/imageViewCampRes"
+        app:layout_constraintTop_toBottomOf="@id/imageViewCampRes" />
 
     <ImageView
         android:id="@+id/imageViewConPpl"
-        android:layout_width="93dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/imageView5AcadCal"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="@id/imageView5AcadCal"
+        app:layout_constraintTop_toBottomOf="@id/textView8Acacal"
         app:srcCompat="@drawable/connect_people1" />
 
     <TextView
         android:id="@+id/textViewConppl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Connect People"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageViewConPpl"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintEnd_toEndOf="@id/imageViewConPpl"
+        app:layout_constraintStart_toStartOf="@id/imageViewConPpl"
+        app:layout_constraintTop_toBottomOf="@id/imageViewConPpl" />
 
     <ImageView
         android:id="@+id/imageView8FC"
-        android:layout_width="93dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/imageViewCampRes"
+        app:layout_constraintStart_toStartOf="@id/imageViewCampRes"
         app:layout_constraintTop_toBottomOf="@id/textViewCampres"
-        app:layout_constraintVertical_bias="0.072"
         app:srcCompat="@drawable/food_courts" />
 
     <TextView
         android:id="@+id/textViewFC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Food courts"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.143"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView8FC"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintEnd_toEndOf="@id/imageView8FC"
+        app:layout_constraintStart_toStartOf="@id/imageView8FC"
+        app:layout_constraintTop_toBottomOf="@id/imageView8FC" />
 
     <ImageView
         android:id="@+id/imageViewEvents"
-        android:layout_width="93dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/imageViewConPpl"
+        app:layout_constraintStart_toStartOf="@id/imageViewConPpl"
         app:layout_constraintTop_toBottomOf="@id/textViewConppl"
-        app:layout_constraintVertical_bias="0.076"
         app:srcCompat="@drawable/events" />
 
     <TextView
         android:id="@+id/textView1Events"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Events"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageViewEvents"
-        app:layout_constraintVertical_bias="0.054" />
+        app:layout_constraintEnd_toEndOf="@id/imageViewEvents"
+        app:layout_constraintStart_toStartOf="@id/imageViewEvents"
+        app:layout_constraintTop_toBottomOf="@id/imageViewEvents" />
 
     <ImageView
         android:id="@+id/imageView18Org514"
         android:layout_width="93dp"
         android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/imageView8FC"
+        app:layout_constraintStart_toStartOf="@id/imageView8FC"
         app:layout_constraintTop_toBottomOf="@id/textViewFC"
-        app:layout_constraintVertical_bias="0.207"
         app:srcCompat="@drawable/organizations" />
 
     <TextView
         android:id="@+id/textView44Org514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Organizations"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView18Org514"
-        app:layout_constraintVertical_bias="0.263" />
+        app:layout_constraintEnd_toEndOf="@id/imageView18Org514"
+        app:layout_constraintStart_toStartOf="@id/imageView18Org514"
+        app:layout_constraintTop_toBottomOf="@id/imageView18Org514" />
 
     <ImageView
         android:id="@+id/imageView19Snap514"
         android:layout_width="93dp"
         android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.731"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEvents"
+        app:layout_constraintStart_toStartOf="@id/imageViewEvents"
         app:layout_constraintTop_toBottomOf="@id/textView1Events"
-        app:layout_constraintVertical_bias="0.243"
         app:srcCompat="@drawable/snapshot" />
 
     <TextView
         android:id="@+id/textView45Snap514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Snapshot"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.677"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView19Snap514"
-        app:layout_constraintVertical_bias="0.225" />
+        app:layout_constraintEnd_toEndOf="@id/imageView19Snap514"
+        app:layout_constraintStart_toStartOf="@id/imageView19Snap514"
+        app:layout_constraintTop_toBottomOf="@id/imageView19Snap514" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
