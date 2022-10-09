@@ -22,6 +22,76 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LaunchScreen"
+            >
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".Reset1Activity"
+            >
+
+        </activity>
+        <activity
+            android:name=".Reset2"
+            >
+
+        </activity>
+        <activity
+            android:name=".Reset3Activity"
+            >
+
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".AcademicCalendar"
+            >
+
+        </activity>
+        <activity
+            android:name=".CampusResourcesActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".ConnectPeople"
+            >
+
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".HangoutsActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".OrganizationActivity"
+            >
+
+        </activity>
+        <activity
+            android:name=".SnapshotsActivity"
+            >
+
+        </activity>
     </application>
 
 </manifest>
