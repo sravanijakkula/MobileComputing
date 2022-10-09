@@ -7,210 +7,199 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="213dp">
 
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="193dp"
-        android:layout_height="wrap_content"
-        android:text="Mon-Fri(10:00AM-5:00PM)"
-        android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="833dp" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Standard Hours"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="814dp" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="195dp"
-        android:layout_height="57dp"
-        android:text="Zen offers Japanese inspired cuisine that is affordable, healthy and fun"
-        android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="757dp" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="732dp"
-        android:layout_marginEnd="184dp"
-        android:text="Zen"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="150dp"
-        android:layout_height="160dp"
-        app:srcCompat="@drawable/zen"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="715dp" />
-
     <View
         android:id="@+id/view7"
         android:layout_width="200dp"
         android:layout_height="2dp"
+        android:layout_marginTop="68dp"
         android:background="@color/black"
+        app:layout_constraintTop_toTopOf="@id/textView39"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="706dp" />
+        tools:layout_editor_absoluteX="195dp" />
 
     <TextView
         android:id="@+id/textView39"
         android:layout_width="193dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="22dp"
         android:text="Mon-Thu(7:30AM-11:00PM)   Fri-Sat(9:00AM-4:45AM)     Sun(4:00PM-11:00PM)"
         android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="639dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView15"
+        app:layout_constraintTop_toTopOf="@id/textView38"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="117dp"
         android:text="Standard Hours"
         android:textColor="@color/black"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="613dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView15"
+        app:layout_constraintTop_toTopOf="@id/textView37"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView37"
         android:layout_width="197dp"
         android:layout_height="64dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="18dp"
         android:text="This location offers brewed coffee and speciality drinks, bakery items, sandwiches and more"
         android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="540dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView15"
+        app:layout_constraintTop_toTopOf="@id/textView36"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="504dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="132dp"
         android:text="Starbucks"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view5"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/view6"
         android:layout_width="200dp"
         android:layout_height="2dp"
+        android:layout_marginTop="50dp"
         android:background="@color/black"
+        app:layout_constraintTop_toTopOf="@id/textView31"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="301dp" />
+        tools:layout_editor_absoluteX="194dp" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="150dp"
         android:layout_height="160dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView14"
         app:srcCompat="@drawable/starbucks"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="521dp" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView35"
         android:layout_width="193dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
         android:text="Mon-Fri(10:30AM-12:00AM)   Sat-Sun(4:00AM-12:00AM)"
         android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="440dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView14"
+        app:layout_constraintTop_toTopOf="@id/textView34"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="115dp"
         android:text="Standard Hours"
         android:textColor="@color/black"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="411dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView14"
+        app:layout_constraintTop_toTopOf="@id/textView33"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="197dp"
         android:layout_height="64dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="18dp"
         android:text="Customizable burgers. Hand-cut fries, many flavors of shakes. All made to your specifications"
         android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView14"
+        app:layout_constraintTop_toTopOf="@id/textView32"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="316dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="151dp"
         android:text="Mooyah"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view6"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="150dp"
         android:layout_height="160dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView13"
         app:srcCompat="@drawable/mooyah1"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/view5"
         android:layout_width="200dp"
         android:layout_height="2dp"
+        android:layout_marginTop="50dp"
         android:background="@color/black"
+        app:layout_constraintTop_toTopOf="@id/textView35"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="488dp" />
+        tools:layout_editor_absoluteX="191dp" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="204dp"
         android:layout_height="76dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
         android:text="Chick-fil-A products include delicious chicken sandwiches, salads, additional entrees and side dishes"
         android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="153dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView13"
+        app:layout_constraintTop_toTopOf="@id/textView28"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="177dp"
+        android:layout_marginStart="196dp"
         android:layout_marginTop="120dp"
         android:layout_marginEnd="128dp"
         android:text="Chick-fil-A"
@@ -218,7 +207,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -250,29 +239,41 @@
         android:id="@+id/imageView13"
         android:layout_width="150dp"
         android:layout_height="160dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/chickfila"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="117dp"
         android:text="Standard Hours"
         android:textColor="@color/black"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="228dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView13"
+        app:layout_constraintTop_toTopOf="@id/textView29"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="193dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
         android:text="Mon-Thu(10:00AM-9:00PM)   Fri-Sat(11:00AM-8:00PM)"
         android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="247dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView13"
+        app:layout_constraintTop_toTopOf="@id/textView30"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

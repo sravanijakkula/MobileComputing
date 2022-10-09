@@ -14,9 +14,9 @@ public class OrganizationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_organization);
 
-        ImageView imageView10=(ImageView) findViewById(R.id.imageView10);
+        ImageView imageView5Back1514=(ImageView) findViewById(R.id.imageView5Back1514);
+        imageView5Back1514.setOnClickListener(new View.OnClickListener() {
 
-        imageView10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(OrganizationActivity.this, DashboardActivity.class);

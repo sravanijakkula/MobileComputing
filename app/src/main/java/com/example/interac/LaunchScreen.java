@@ -24,7 +24,7 @@ public class LaunchScreen extends AppCompatActivity {
 
         });
         Button button1 =(Button) findViewById(R.id.button6);
-        button.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(LaunchScreen.this, RegisterActivity.class);

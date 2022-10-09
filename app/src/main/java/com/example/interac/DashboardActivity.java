@@ -25,7 +25,7 @@ public class DashboardActivity extends AppCompatActivity {
         imageView5AcadCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(DashboardActivity.this, AboutUsActivity.class);
+                Intent i = new Intent(DashboardActivity.this, AcademicCalendar.class);
                 startActivity(i);
             }
         });
@@ -33,7 +33,7 @@ public class DashboardActivity extends AppCompatActivity {
         imageViewCampRes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashboardActivity.this, AboutUsActivity.class);
+                Intent i = new Intent(DashboardActivity.this, CampusResourcesActivity.class);
                 startActivity(i);
             }
         });
@@ -42,7 +42,7 @@ public class DashboardActivity extends AppCompatActivity {
         imageViewConPpl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashboardActivity.this, AboutUsActivity.class);
+                Intent i = new Intent(DashboardActivity.this, ConnectPeople.class);
                 startActivity(i);
             }
 
@@ -51,12 +51,43 @@ public class DashboardActivity extends AppCompatActivity {
         imageView8FC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashboardActivity.this, AboutUsActivity.class);
+                Intent i = new Intent(DashboardActivity.this, HangoutsActivity.class);
                 startActivity(i);
             }
 
         });
-        //                         ImageView imageViewConPpl=(ImageView) findViewById(R.id.imageViewConPpl);
+
+        ImageView imageViewEvents=(ImageView) findViewById(R.id.imageViewEvents);
+        imageViewEvents.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, EventsActivity.class);
+                startActivity(i);
+            }
+
+        });
+
+
+        ImageView imageView18Org514=(ImageView) findViewById(R.id.imageView18Org514);
+        imageView18Org514.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, OrganizationActivity.class);
+
+                startActivity(i);
+            }
+
+        });
+        ImageView imageView19Snap514=(ImageView) findViewById(R.id.imageView19Snap514);
+        imageView19Snap514.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, SnapshotsActivity.class);
+
+                startActivity(i);
+            }
+
+        });
 
     }
 }

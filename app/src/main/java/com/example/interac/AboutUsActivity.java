@@ -14,7 +14,7 @@ public class AboutUsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
 
-        ImageView imageView5Back1514 = (ImageView) findViewById(R.id.imageView8);
+        ImageView imageView5Back1514 = (ImageView) findViewById(R.id.imageView5Back1514);
         imageView5Back1514.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
