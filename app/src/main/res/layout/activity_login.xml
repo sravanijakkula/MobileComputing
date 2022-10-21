@@ -35,7 +35,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextUserName234"
         android:layout_width="280dp"
         android:layout_height="42dp"
         android:layout_marginTop="12dp"
@@ -49,7 +49,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPassword123"
         android:layout_width="280dp"
         android:layout_height="42dp"
         android:layout_marginTop="12dp"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@id/editTextUserName234"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
@@ -72,8 +72,8 @@
         android:text="Remember Me"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@id/editTextPassword123"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword123"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -85,10 +85,10 @@
         android:layout_marginEnd="66dp"
         android:text="Forgot Password?"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="@id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@id/editTextPassword123"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword123"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword123"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -129,7 +129,7 @@
         android:layout_marginStart="260dp"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="106dp"
-        android:text="SignUp"
+        android:text="       SignUp"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -154,6 +154,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/car_ui_icon_arrow_back"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteY="32dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
