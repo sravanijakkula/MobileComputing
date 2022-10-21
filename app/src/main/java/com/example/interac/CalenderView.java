@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-class CalendarView extends AppCompatActivity {
+public class CalenderView extends AppCompatActivity {
     ListView listView;
     TextView textView;
     String[] listItem;
