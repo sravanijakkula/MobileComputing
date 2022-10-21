@@ -28,7 +28,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/car_ui_icon_arrow_back"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteY="32dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="add_item" type="id" />
+    <item name="myProfile" type="id" />
+    <item name="writePost" type="id" />
+    <item name="logout" type="id" />
 </resources>
