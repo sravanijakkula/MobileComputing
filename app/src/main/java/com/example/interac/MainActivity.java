@@ -25,14 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         imageView = (ImageView) findViewById(R.id.imageViewInterac514);
 
-//        imageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(MainActivity.this, LaunchScreen.class);
-//                startActivity(i);
-//            }
-//
-//        });
+
 
         new Handler().postDelayed(new Runnable() {
             @Override
