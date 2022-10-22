@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".SnapshotsActivity">
 
+    <ImageView
+        android:id="@+id/imageView8765"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car_ui_icon_arrow_back"
+        tools:ignore="MissingConstraints" />
     <TextView
         android:id="@+id/textViewSnap"
         android:layout_width="wrap_content"
