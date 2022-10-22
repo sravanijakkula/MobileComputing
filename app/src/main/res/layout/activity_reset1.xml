@@ -27,7 +27,6 @@
         app:layout_constraintTop_toBottomOf="@id/imageView2Back3514"
         app:layout_constraintVertical_bias="0.085"
         app:srcCompat="@drawable/reset1" />
-
     <TextView
         android:id="@+id/textViewResdec514"
         android:layout_width="wrap_content"
