@@ -3,99 +3,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Reset2">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="138dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="99dp"
-        android:layout_marginEnd="137dp"
+        android:id="@+id/imageView2Back3514"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reset2" />
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/imageView3Res514"
+        android:layout_width="173dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2Back3514"
+        app:layout_constraintVertical_bias="0.085"
+        app:srcCompat="@drawable/reset1" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewResdec514"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Reset your password"
-        android:textAlignment="center"
-        android:textColor="@color/purple_700"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/imageView"
-        app:layout_constraintStart_toStartOf="@id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="We have sent a four digit code on your email"
-        android:textAlignment="center"
+        android:text="It's okay! Reset your password."
         android:textColor="@color/black"
-        android:textSize="15sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="@id/textView"
-        app:layout_constraintStart_toStartOf="@id/textView"
-        app:layout_constraintTop_toTopOf="@id/textView" />
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3Res514"
+        app:layout_constraintVertical_bias="0.044" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:id="@+id/editTextTextEsid514"
+        android:layout_width="264dp"
+        android:layout_height="42dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Enter four digit code"
-        app:layout_constraintEnd_toEndOf="@id/textView2"
-        app:layout_constraintStart_toStartOf="@id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Enter new password"
-        app:layout_constraintEnd_toEndOf="@id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@id/editTextTextPersonName"
-        app:layout_constraintTop_toTopOf="@id/editTextTextPersonName"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="69dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Confirm password"
-        app:layout_constraintEnd_toEndOf="@id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@id/editTextTextPersonName2"
-        app:layout_constraintTop_toTopOf="@id/editTextTextPersonName2"
-        tools:ignore="TouchTargetSizeCheck" />
+        android:hint="Enter Email or Sid"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewResdec514"
+        app:layout_constraintVertical_bias="0.068" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonCont514"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="SUBMIT"
+        android:backgroundTint="#9C27B0"
+        android:text="Continue"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/editTextTextPersonName3"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName3" />
+        android:textSize="25sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextEsid514"
+        app:layout_constraintVertical_bias="0.1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
