@@ -23,7 +23,6 @@ public class EventsActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_events);
         ImageView imageView4=(ImageView)findViewById(R.id.imageView4);
-
         imageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
