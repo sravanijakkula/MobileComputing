@@ -285,4 +285,5 @@
         app:layout_constraintStart_toEndOf="@id/imageView13"
         app:layout_constraintTop_toTopOf="@id/textView30"
         tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
