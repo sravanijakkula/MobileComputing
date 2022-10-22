@@ -29,6 +29,7 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        
         ImageView imageViewCampRes=(ImageView) findViewById(R.id.imageViewCampRes);
         imageViewCampRes.setOnClickListener(new View.OnClickListener() {
             @Override
