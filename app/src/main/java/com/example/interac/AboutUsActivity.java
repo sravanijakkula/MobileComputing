@@ -29,6 +29,7 @@ public class AboutUsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(AboutUsActivity.this, DashboardActivity.class);
                 startActivity(i);
+                
             }
         });
     }
