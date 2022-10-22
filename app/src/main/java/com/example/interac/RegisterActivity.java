@@ -24,7 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
     TextView textViewLogin11;
     EditText editTextTextUN, editTextTextESid, editTextTextPsw, editTextTextCpsw;
     SQLiteDatabase sqLiteDatabaseObj;
-    //SQLiteHelper sqLiteHelper;
+    
     Cursor cursor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
