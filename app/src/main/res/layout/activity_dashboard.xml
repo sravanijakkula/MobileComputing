@@ -12,53 +12,37 @@
         android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
+        app:layout_constraintVertical_bias="0.092"
         app:srcCompat="@drawable/menu" />
 
     <TextView
         android:id="@+id/textViewInterac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="167dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="165dp"
+        android:layout_marginTop="95dp"
         android:text="Interac"
         android:textColor="#2D3C8E"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <SearchView
-        android:id="@+id/search584"
-        android:layout_width="289dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="55dp"
-        android:background="#37EDF0F3"
-        android:backgroundTint="@color/purple_500"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewInterac" />
 
     <ImageView
         android:id="@+id/imageViewAboutus"
         android:layout_width="100dp"
         android:layout_height="75dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="49dp"
         android:layout_marginEnd="20dp"
         app:circularflow_radiusInDP="50dp"
         app:layout_constraintEnd_toStartOf="@id/imageView5AcadCal"
         app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/search584"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInterac"
         app:srcCompat="@drawable/about_us" />
 
     <ImageView
@@ -66,12 +50,12 @@
         android:layout_width="100dp"
         android:layout_height="75dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="49dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@id/imageViewAboutus"
-        app:layout_constraintTop_toBottomOf="@id/search584"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInterac"
         app:srcCompat="@drawable/acamedic_calendar" />
 
     <TextView
