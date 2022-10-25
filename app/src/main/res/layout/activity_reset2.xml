@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/reset1" />
 
+
     <TextView
         android:id="@+id/textViewResdec514"
         android:layout_width="wrap_content"
