@@ -50,10 +50,6 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AcademicCalendar" />
         <activity android:name=".AboutUsActivity" />
-        <activity android:name=".WritePost"
-            tools:ignore="DuplicateActivity" />
-        <activity android:name=".Profile"
-            tools:ignore="DuplicateActivity" />
         <activity android:name=".CampusResourcesActivity" />
         <activity android:name=".ConnectPeople" />
         <activity android:name=".EventsActivity" />
