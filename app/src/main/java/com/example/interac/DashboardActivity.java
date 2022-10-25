@@ -90,5 +90,16 @@ public class DashboardActivity extends AppCompatActivity {
 
         });
 
+        ImageView menu=(ImageView) findViewById(R.id.imgdashboardmenu);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, DashboardMenu.class);
+
+                startActivity(i);
+            }
+
+        });
+
     }
 }
