@@ -78,12 +78,12 @@
         android:id="@+id/textView6Aboutus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:text="About us"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@id/imageViewAboutus"
-        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="@id/imageViewAboutus"
         app:layout_constraintTop_toBottomOf="@id/imageViewAboutus" />
 
