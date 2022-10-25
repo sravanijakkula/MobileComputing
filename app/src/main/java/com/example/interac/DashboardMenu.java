@@ -25,28 +25,9 @@ public class DashboardMenu extends AppCompatActivity {
 
         setContentView(R.layout.activity_dashboard_menu);
 
-
-
-        myProfile=(TextView) findViewById(R.id.myProfile);
-        writePost=(TextView) findViewById(R.id.writePost);
         logout=(TextView) findViewById(R.id.logout);
 
-        myProfile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(DashboardMenu.this, MyProfileActivity.class);
-                startActivity(i);
-            }
-        });
-        writePost.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(DashboardMenu.this, WritePost.class);
-                startActivity(i);
-            }
-        });
-
-        logout.setOnClickListener(new View.OnClickListener() {
+           logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(DashboardMenu.this, LoginActivity.class);

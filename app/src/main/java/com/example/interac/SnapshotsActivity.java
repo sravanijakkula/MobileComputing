@@ -35,5 +35,27 @@ ImageView imageView8765;
             }
         });
 
+        ImageView imageUpload = (ImageView) findViewById(R.id.imageView16);
+
+        imageUpload.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SnapshotsActivity.this, WritePost.class);
+                startActivity(i);
+            }
+        });
+
+        ImageView imageProfile = (ImageView) findViewById(R.id.imageView19);
+
+        imageProfile.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SnapshotsActivity.this, Profile.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

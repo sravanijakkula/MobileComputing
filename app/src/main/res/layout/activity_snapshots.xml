@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SnapshotsActivity">
 
-    <ImageView
-        android:id="@+id/imageView8765"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/car_ui_icon_arrow_back"
-        tools:ignore="MissingConstraints" />
     <TextView
         android:id="@+id/textViewSnap"
         android:layout_width="wrap_content"
@@ -196,6 +186,24 @@
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@id/imageViewShare2"
         app:layout_constraintTop_toBottomOf="@id/imageView20" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imageupload"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="685dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="689dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

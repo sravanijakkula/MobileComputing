@@ -6,17 +6,6 @@
     android:layout_height="match_parent">
 
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/car_ui_icon_arrow_back"
-        tools:ignore="MissingConstraints" />
-
     <TextView
         android:id="@+id/textView17"
         android:layout_width="218dp"

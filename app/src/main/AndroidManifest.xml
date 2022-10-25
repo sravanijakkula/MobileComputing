@@ -26,7 +26,7 @@
             android:name=".WritePost"
             android:exported="false" />
         <activity
-            android:name=".MyProfileActivity"
+            android:name=".Profile"
             android:exported="false" />
         <activity
             android:name=".DashboardMenu"
@@ -50,6 +50,10 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AcademicCalendar" />
         <activity android:name=".AboutUsActivity" />
+        <activity android:name=".WritePost"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".Profile"
+            tools:ignore="DuplicateActivity" />
         <activity android:name=".CampusResourcesActivity" />
         <activity android:name=".ConnectPeople" />
         <activity android:name=".EventsActivity" />
