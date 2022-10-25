@@ -119,7 +119,7 @@
         android:id="@+id/Upd584"
         android:layout_width="160dp"
         android:layout_height="90dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:text="UPD"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"

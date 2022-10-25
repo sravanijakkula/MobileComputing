@@ -249,11 +249,11 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="142dp"
+        android:layout_height="130dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="110dp"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
+        tools:srcCompat="@drawable/profile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

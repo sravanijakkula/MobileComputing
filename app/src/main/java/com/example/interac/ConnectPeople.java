@@ -9,9 +9,12 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import org.w3c.dom.Text;
 
 public class ConnectPeople extends AppCompatActivity {
     Button Alumni584, button2employees584, Faculty584, Ra584, button5Stud584, Upd584;
@@ -71,6 +74,17 @@ public class ConnectPeople extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 alert();
+            }
+        });
+
+        TextView profile = (TextView) findViewById(R.id.profile584);
+
+        profile.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ConnectPeople.this, Profile.class);
+                startActivity(i);
             }
         });
     }
