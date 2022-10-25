@@ -73,14 +73,6 @@ public class ConnectPeople extends AppCompatActivity {
                 alert();
             }
         });
-        ImageView imageViewback584 = (ImageView) findViewById(R.id.imageViewback584);
-        imageViewback584.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(ConnectPeople.this, DashboardActivity.class);
-                startActivity(i);
-            }
-        });
     }
 
 

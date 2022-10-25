@@ -24,16 +24,5 @@ public class HangoutsActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_hangouts);
 
-        ImageView imageView4=(ImageView)findViewById(R.id.imageView12);
-
-        imageView4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(HangoutsActivity.this, DashboardActivity.class);
-                startActivity(i);
-            }
-        });
-
-
     }
 }

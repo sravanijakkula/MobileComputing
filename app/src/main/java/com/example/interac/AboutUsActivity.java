@@ -23,14 +23,5 @@ public class AboutUsActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_about_us);
 
-        ImageView imageView5Back1514 = (ImageView) findViewById(R.id.imageView5Back1514);
-        imageView5Back1514.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(AboutUsActivity.this, DashboardActivity.class);
-                startActivity(i);
-                
-            }
-        });
     }
 }

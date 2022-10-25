@@ -58,15 +58,6 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-
-        ImageView imageView7 = (ImageView) findViewById(R.id.imageView7);
-        imageView7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(LoginActivity.this, LaunchScreen.class);
-                startActivity(i);
-            }
-        });
     }
 
     public boolean validate() {

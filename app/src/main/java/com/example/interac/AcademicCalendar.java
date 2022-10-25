@@ -104,15 +104,6 @@ public class AcademicCalendar extends AppCompatActivity {
             }
         });
 
-
-        ImageView imageview = (ImageView) findViewById(R.id.imageView18);
-        imageview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(AcademicCalendar.this, DashboardActivity.class);
-                startActivity(i);
-            }
-        });
     }
 
     public void seeEvents() {
