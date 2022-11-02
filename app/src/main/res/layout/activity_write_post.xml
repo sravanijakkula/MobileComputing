@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="122dp"
         android:text="Upload Files"
-        android:textColor="@color/black"
+        android:textColor="#2D3C8E"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

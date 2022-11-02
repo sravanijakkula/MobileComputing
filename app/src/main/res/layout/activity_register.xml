@@ -12,7 +12,7 @@
         android:layout_marginTop="101dp"
         android:text="Register"
         android:textColor="#2D3C8E"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

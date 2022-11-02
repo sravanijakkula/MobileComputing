@@ -83,7 +83,7 @@ public class ConnectPeople extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ConnectPeople.this, Profile.class);
+                Intent i = new Intent(ConnectPeople.this, MyProfileActivity.class);
                 startActivity(i);
             }
         });
