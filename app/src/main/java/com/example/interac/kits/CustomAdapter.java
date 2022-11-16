@@ -19,15 +19,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textViewName;
-        TextView textViewVersion;
-        ImageView imageViewIcon;
+        TextView name,nname,phone,email,about;
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            this.textViewName = (TextView) itemView.findViewById(R.id.textViewName);
-            this.textViewVersion = (TextView) itemView.findViewById(R.id.textViewVersion);
-            this.imageViewIcon = (ImageView) itemView.findViewById(R.id.imageView);
+            this.name = (TextView) itemView.findViewById(R.id.name);
+            this.nname = (TextView) itemView.findViewById(R.id.nname);
+            this.phone = itemView.findViewById(R.id.phone);
+            this.email = itemView.findViewById(R.id.email);
+            this.about = itemView.findViewById(R.id.about);
         }
     }
 
@@ -41,7 +41,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.activity_cards_layout, parent, false);
 
-        view.setOnClickListener(ConnectPeopleResults.myOnClickListener);
+        //view.setOnClickListener(ConnectPeopleResults.myOnClickListener);
 
         MyViewHolder myViewHolder = new MyViewHolder(view);
         return myViewHolder;
@@ -50,13 +50,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int listPosition) {
 
-        TextView textViewName = holder.textViewName;
-        TextView textViewVersion = holder.textViewVersion;
-        ImageView imageView = holder.imageViewIcon;
+        holder.name.setText(dataSet.get(listPosition).name);
+        holder.nname.setText(dataSet.get(listPosition).nname);
+        holder.phone.setText(dataSet.get(listPosition).phone);
+        holder.email.setText(dataSet.get(listPosition).email);
+        holder.about.setText(dataSet.get(listPosition).about);
 
-        textViewName.setText(dataSet.get(listPosition).getName());
-        textViewVersion.setText(dataSet.get(listPosition).getVersion());
-        imageView.setImageResource(dataSet.get(listPosition).getImage());
     }
 
     @Override
