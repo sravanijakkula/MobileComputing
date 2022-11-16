@@ -1,6 +1,9 @@
 ## MobileComputing
 
-#### Application Name: INTERAC
+### Application Name: INTERAC
+
+### Application Logo
+![My Image](logo.png)
 
 ##### Team Members:
 1.	Trilochan Reddy Sama (Trilochan-Reddy)
