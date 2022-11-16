@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
     <ImageView
@@ -36,7 +37,8 @@
         android:layout_height="42dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter Email or Sid"
+        android:hint="Enter Your Email"
+        android:textColorHint="#474747"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +46,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewResdec514"
         app:layout_constraintVertical_bias="0.068" />
+
+
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
 
     <Button
         android:id="@+id/buttonCont514"

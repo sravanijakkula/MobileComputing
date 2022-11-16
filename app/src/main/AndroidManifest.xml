@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.interac">
 
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +19,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.INTERAC"
         tools:targetApi="31">
+        <activity
+            android:name=".othersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpecialEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeComingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlumniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventListActivity"
+            android:exported="false" />
         <activity
             android:name=".CalenderView"
             android:exported="false" />
@@ -29,13 +50,15 @@
             android:name=".Profile"
             android:exported="false" />
         <activity
+            android:name=".MyProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".DashboardMenu"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,8 +69,6 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".Reset1Activity" />
-        <activity android:name=".Reset2" />
-        <activity android:name=".Reset3Activity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AcademicCalendar" />
         <activity android:name=".AboutUsActivity" />
