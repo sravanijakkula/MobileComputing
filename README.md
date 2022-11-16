@@ -20,22 +20,25 @@ This android project concept is one of those rare ideas that has the potential t
 #### Activities:
 1.	Home Screen
 2.	Launch Screen
-3.	Register
-4.	Log In
-5.	Reset
-Screen 1 – Forget Password
-Screen 2 – Reset Password
-Screen 3 – Reset Confirmation
-6.	Dashboard
-7.	About Us
-8.	Academic Calendar
-9.	Campus Resources
-10.	Connect People
-11.	Events
-12.	Food courts
-13.	Snapshots
-14.	My Profile
-15.	Organizations
+3.	Register Screen
+4.	LogIn Screen
+5.	Reset Password Screen
+6.	Dashboard Screen
+7.	About Us Screen
+8.	Academic Calendar Screen
+9.	Campus Resources Screen
+10.	Connect People Screen
+11.	Events Screen
+12.	Food courts Screen
+13.	Snapshots Screen
+14.	My Profile Screen
+15.	Organizations Screen
 
 ##### Flow Diagram 
 ![My Image](FlowChart.png)
+
+##### Sequence Information
+
+##### Test Credentials
+
+##### Supported Devices
