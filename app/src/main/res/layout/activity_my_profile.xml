@@ -8,18 +8,17 @@
     tools:context=".MyProfileActivity">
 
     <TextView
-        android:id="@+id/textViewdescrpabout"
+        android:id="@+id/descri"
         android:layout_width="193dp"
         android:layout_height="100dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:text="Description about me"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewgmail"
+        app:layout_constraintTop_toBottomOf="@id/email"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -39,18 +38,17 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textViewgmail"
+        android:id="@+id/email"
         android:layout_width="193dp"
         android:layout_height="34dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:text="nikhilav@gmail.com"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewnumber"
+        app:layout_constraintTop_toBottomOf="@id/phone"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -70,18 +68,17 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textViewnumber"
+        android:id="@+id/phone"
         android:layout_width="193dp"
         android:layout_height="34dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:text="+1(660)528-1657"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewpersongender"
+        app:layout_constraintTop_toBottomOf="@id/gender"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -101,18 +98,17 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textViewpersongender"
+        android:id="@+id/gender"
         android:layout_width="193dp"
         android:layout_height="34dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:text="Female"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewdate"
+        app:layout_constraintTop_toBottomOf="@id/about"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -120,40 +116,9 @@
         android:layout_width="wrap_content"
         android:layout_height="34dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="322dp"
-        android:text="Gender"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewbirthday"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textViewdate"
-        android:layout_width="193dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="35dp"
-        android:text="10/11/2000"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewshortdesc"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textViewbirthday"
-        android:layout_width="wrap_content"
-        android:layout_height="34dp"
-        android:layout_marginStart="35dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="312dp"
-        android:text="Birthday"
+        android:text="Gender"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -162,19 +127,49 @@
         app:layout_constraintTop_toBottomOf="@id/textViewabout"
         tools:ignore="MissingConstraints" />
 
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewdate"-->
+    <!--        android:layout_width="193dp"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:layout_marginStart="175dp"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:layout_marginEnd="35dp"-->
+    <!--        android:text="10/11/2000"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="16sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/about"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewbirthday"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:layout_marginStart="35dp"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:layout_marginEnd="312dp"-->
+    <!--        android:text="Birthday"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/textViewabout"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
     <TextView
-        android:id="@+id/textViewshortdesc"
+        android:id="@+id/about"
         android:layout_width="194dp"
         android:layout_height="75dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:text="Short Description about me"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewnickperson"
+        app:layout_constraintTop_toBottomOf="@id/nname"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -194,18 +189,17 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textViewnickperson"
+        android:id="@+id/nname"
         android:layout_width="193dp"
         android:layout_height="34dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
-        android:text="Nikki"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewperson"
+        app:layout_constraintTop_toBottomOf="@id/name"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -256,13 +250,12 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textViewperson"
+        android:id="@+id/name"
         android:layout_width="193dp"
         android:layout_height="34dp"
         android:layout_marginStart="175dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="35dp"
-        android:text="Nikhila"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"

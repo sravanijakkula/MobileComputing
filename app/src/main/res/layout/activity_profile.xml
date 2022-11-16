@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawerLayout"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -19,20 +20,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView24"
         tools:ignore="MissingConstraints" />
-
     <TextView
-        android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="10dp"
-        android:text="Category"
+        android:layout_marginTop="20dp"
+        android:text="Description"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         tools:ignore="MissingConstraints" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView22"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="35dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="Category"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"-->
+    <!--        tools:ignore="MissingConstraints" />-->
 
     <TextView
         android:id="@+id/textView19"
@@ -48,7 +61,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/name"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginStart="7dp"
@@ -56,25 +69,29 @@
         android:layout_marginEnd="30dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:textColor="@color/black"
+        android:textColorHint="#717171"
+        android:hint="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/textView19"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/nname"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#717171"
         android:layout_marginEnd="30dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nickname"
+        android:hint="Nickname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/name"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -94,7 +111,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/about"
         android:layout_width="353dp"
         android:layout_height="51dp"
         android:layout_marginStart="35dp"
@@ -102,39 +119,41 @@
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Short Description"
+        android:textColor="@color/black"
+        android:textColorHint="#717171"
+        android:hint="Short Description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="30dp"
-        android:text="Birthday"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
-        tools:ignore="MissingConstraints" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView21"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="35dp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:text="Birthday"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/about"-->
+    <!--        tools:ignore="MissingConstraints" />-->
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
         android:text="Gender"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/about"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -148,11 +167,11 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/descri"
         android:layout_width="355dp"
         android:layout_height="73dp"
         android:layout_marginStart="35dp"
@@ -160,83 +179,107 @@
         android:layout_marginBottom="60dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Description"
+        android:hint="Description"
+        android:textColor="@color/black"
+        android:textColorHint="#717171"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/phone"
         android:layout_width="215dp"
         android:layout_height="45dp"
         android:layout_marginStart="3dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter the Phn Num"
+        android:textColor="@color/black"
+        android:textColorHint="#717171"
+        android:inputType="number"
+        android:hint="Enter the Phn Num"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView24"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/email"
         android:layout_width="215dp"
         android:layout_height="45dp"
         android:layout_marginStart="75dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Email"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:textColor="@color/black"
+        android:textColorHint="#717171"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/textView26"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="215dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView21"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_category"
-        tools:ignore="MissingConstraints" />
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextDate"-->
+    <!--        android:layout_width="215dp"-->
+    <!--        android:layout_height="45dp"-->
+    <!--        android:layout_marginStart="60dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="22dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="date"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/textView21"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/about"-->
+    <!--        tools:ignore="MissingConstraints" />-->
 
-    <EditText
-        android:id="@+id/editTextTextPersonName10"
-        android:layout_width="215dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="12dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Gender"
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toEndOf="@+id/textView23"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/about"
+        android:id="@+id/radioGroup">
 
-    <Spinner
-        android:id="@+id/spinner_category"
-        android:layout_width="215dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="25dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView22"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        tools:ignore="MissingConstraints" />
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/black"
+            android:text="M"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textColor="@color/black"
+            android:checked="false"
+
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spinner_category"-->
+    <!--        android:layout_width="215dp"-->
+    <!--        android:layout_height="45dp"-->
+    <!--        android:layout_marginStart="60dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="25dp"-->
+    <!--        android:spinnerMode="dropdown"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/textView22"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"-->
+    <!--        tools:ignore="MissingConstraints" />-->
 
     <ImageView
         android:id="@+id/imageView17"
@@ -245,11 +288,11 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="110dp"
         android:layout_marginEnd="26dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toStartOf="@+id/name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:srcCompat="@drawable/profile" />
+        android:src="@drawable/profile" />
 
     <Button
         android:id="@+id/button23"
@@ -261,6 +304,6 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintTop_toBottomOf="@+id/descri" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
