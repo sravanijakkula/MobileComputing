@@ -17,95 +17,114 @@ import android.widget.Toast;
 import com.example.interac.kits.CustomAdapter;
 import com.example.interac.kits.DataModel;
 import com.example.interac.kits.MyData;
+import com.example.interac.kits.campusResourseModel;
+import com.example.interac.kits.eventListAdapter;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
 public class ConnectPeopleResults extends AppCompatActivity {
 
-    private static RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
-    private static RecyclerView recyclerView;
-    private static ArrayList<DataModel> data;
-    public    static View.OnClickListener myOnClickListener;
-    private static ArrayList<Integer> removedItems;
+    FirebaseFirestore fs = FirebaseFirestore.getInstance();
+    private ArrayList<DataModel> listdata = new ArrayList<>();
+    TextView t1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connect_people_results);
 
-        myOnClickListener = new MyOnClickListener(this);
 
-        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        t1 = findViewById(R.id.t1);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        CustomAdapter adapter = new CustomAdapter(listdata);
         recyclerView.setHasFixedSize(true);
-
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-
-        data = new ArrayList<DataModel>();
-        for (int i = 0; i < MyData.nameArray.length; i++) {
-            data.add(new DataModel(
-                    MyData.nameArray[i],
-                    MyData.versionArray[i],
-                    MyData.id_[i],
-                    MyData.drawableArray[i]
-            ));
-        }
-
-        removedItems = new ArrayList<Integer>();
-
-        adapter = new CustomAdapter(data);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
-    }
 
 
-    private static class MyOnClickListener implements View.OnClickListener {
-
-        private final Context context;
-
-        private MyOnClickListener(Context context) {
-            this.context = context;
+        if(getIntent().getStringExtra("s").equals("alumni")){
+            t1.setText("Alumni");
+            fs.collection("Connect_Alumni").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot q) {
+                    if(!q.isEmpty()){
+                        for(DocumentSnapshot d: q){
+                            listdata.add(new DataModel(d.getString("Name"), d.getString("Email"), d.getString("Phone"), d.getString("Nickname"), d.getString("Birthday"), d.getString("Gender"), d.getString("Description"), d.getString("About Me") ));
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            });
+        }else if(getIntent().getStringExtra("s").equals("emp")){
+            t1.setText("Employees");
+            fs.collection("Connect_Employees").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot q) {
+                    if(!q.isEmpty()){
+                        for(DocumentSnapshot d: q){
+                            listdata.add(new DataModel(d.getString("Name"), d.getString("Email"), d.getString("Phone"), d.getString("Nickname"), d.getString("Birthday"), d.getString("Gender"), d.getString("Description"), d.getString("About Me") ));
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            });
+        }else if(getIntent().getStringExtra("s").equals("flt")){
+            t1.setText("Faculty");
+            fs.collection("Connect_Faculty").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot q) {
+                    if(!q.isEmpty()){
+                        for(DocumentSnapshot d: q){
+                            listdata.add(new DataModel(d.getString("Name"), d.getString("Email"), d.getString("Phone"), d.getString("Nickname"), d.getString("Birthday"), d.getString("Gender"), d.getString("Description"), d.getString("About Me") ));
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            });
+        }else if(getIntent().getStringExtra("s").equals("rlt")){
+            t1.setText("Residence");
+            fs.collection("Connect_Residence").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot q) {
+                    if(!q.isEmpty()){
+                        for(DocumentSnapshot d: q){
+                            listdata.add(new DataModel(d.getString("Name"), d.getString("Email"), d.getString("Phone"), d.getString("Nickname"), d.getString("Birthday"), d.getString("Gender"), d.getString("Description"), d.getString("About Me") ));
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            });
+        }else if(getIntent().getStringExtra("s").equals("stu")){
+            t1.setText("Students");
+            fs.collection("Connect_Students").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot q) {
+                    if(!q.isEmpty()){
+                        for(DocumentSnapshot d: q){
+                            listdata.add(new DataModel(d.getString("Name"), d.getString("Email"), d.getString("Phone"), d.getString("Nickname"), d.getString("Birthday"), d.getString("Gender"), d.getString("Description"), d.getString("About Me") ));
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            });
+        }else if(getIntent().getStringExtra("s").equals("upd")){
+            t1.setText("UPD");
+            fs.collection("Connect_UPD").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                @Override
+                public void onSuccess(QuerySnapshot q) {
+                    if(!q.isEmpty()){
+                        for(DocumentSnapshot d: q){
+                            listdata.add(new DataModel(d.getString("Name"), d.getString("Email"), d.getString("Phone"), d.getString("Nickname"), d.getString("Birthday"), d.getString("Gender"), d.getString("Description"), d.getString("About Me") ));
+                            adapter.notifyDataSetChanged();
+                        }
+                    }
+                }
+            });
         }
 
-        @Override
-        public void onClick(View v) {
-
-        }
-
-
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        super.onOptionsItemSelected(item);
-        if (item.getItemId() == R.id.add_item) {
-            //check if any items to add
-            if (removedItems.size() != 0) {
-                addRemovedItemToList();
-            } else {
-                Toast.makeText(this, "Nothing to add", Toast.LENGTH_SHORT).show();
-            }
-        }
-        return true;
-    }
-
-    private void addRemovedItemToList() {
-        int addItemAtListPosition = 3;
-        data.add(addItemAtListPosition, new DataModel(
-                MyData.nameArray[removedItems.get(0)],
-                MyData.versionArray[removedItems.get(0)],
-                MyData.id_[removedItems.get(0)],
-                MyData.drawableArray[removedItems.get(0)]
-        ));
-        adapter.notifyItemInserted(addItemAtListPosition);
-        removedItems.remove(0);
     }
 }
