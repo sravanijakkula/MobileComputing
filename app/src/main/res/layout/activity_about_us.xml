@@ -1,207 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <ScrollView
+        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView3Au514"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="56dp"
-                android:layout_marginBottom="571dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
                 android:text="About Us"
                 android:textColor="#2D3C8E"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.509"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView4Au514"
-                android:layout_width="350dp"
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Northwest Missouri State university founded in 1905.is a comprehensive four year regional university supported by the state and accrediated by  the higher  learning comission(HLC). It provides a wide  range of undergrad and grad programs on its maryville campus as well as at its northwest kansas location  at the northland innovation center and online through northwest online program"
                 android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.491"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView3Au514"
-                app:layout_constraintVertical_bias="0.02" />
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="20dp"
+                android:textAlignment="center"/>
 
-            <ImageView
-                android:id="@+id/imageViewQA514"
-                android:layout_width="120dp"
-                android:layout_height="109dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.116"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView4Au514"
-                app:layout_constraintVertical_bias="0.173"
-                app:srcCompat="@drawable/quality_academics" />
-
-            <TextView
-                android:id="@+id/textView5Qad"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Quality Academics"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.729"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView4Au514"
-                app:layout_constraintVertical_bias="0.064" />
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView6Lb514"
-                android:layout_width="wrap_content"
+                <ImageView
+                    android:id="@+id/imageViewQA514"
+                    android:layout_width="0dp"
+                    android:layout_weight=".60"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/quality_academics"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5Qad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quality Academics"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/quality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="___________________________________"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.916"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView5Qad"
-                app:layout_constraintVertical_bias="0.0" />
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView7Qad514"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="northwest has 120 undergraduate and 40 graduate programs.career services hosts a &quot; exploring majors &quot;fair  where students can learn about various majors and find 1 that is a good fit for them."
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.857"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView6Lb514"
-                app:layout_constraintVertical_bias="0.0" />
+                <ImageView
+                    android:id="@+id/imageView7lap514"
+                    android:layout_width="0dp"
+                    android:layout_weight=".60"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/laptop"
+                    />
 
-            <ImageView
-                android:id="@+id/imageView7lap514"
-                android:layout_width="123dp"
-                android:layout_height="109dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.118"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/imageViewQA514"
-                app:layout_constraintVertical_bias="0.246"
-                app:srcCompat="@drawable/laptop" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView8Lap514"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Laptop"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.536"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView7Qad514"
-                app:layout_constraintVertical_bias="0.12" />
+                    <TextView
+                        android:id="@+id/textView8Lap514"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Laptop"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
-            <TextView
-                android:id="@+id/textView9laplb514"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="___________________________________"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.919"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView8Lap514"
-                app:layout_constraintVertical_bias="0.0" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/black"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView10Lapdes514"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="Every full-time student is given a laptop computer  to use for the duration of the school year .  To learn more go to the campus laptop computers program."
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.853"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView9laplb514"
-                app:layout_constraintVertical_bias="0.0" />
+                    <TextView
+                        android:id="@+id/laptop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
 
             <TextView
                 android:id="@+id/textView11Nwms514"
                 android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
                 android:text="Northwest Missouri state university"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.436"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView10Lapdes514"
-                app:layout_constraintVertical_bias="0.135" />
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textView12Ud514"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="800 university drive"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView11Nwms514"
-                app:layout_constraintVertical_bias="0.0" />
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textView13Mo514"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="Maryville MO 64468 USA"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView12Ud514"
-                app:layout_constraintVertical_bias="0.0" />
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textView14Phn514"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="660.562.1212"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textView13Mo514" />
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
     </ScrollView>
-</LinearLayout>
+</FrameLayout>
