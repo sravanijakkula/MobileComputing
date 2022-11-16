@@ -51,7 +51,9 @@ This android project concept is one of those rare ideas that has the potential t
 11. Snapshots screen is to upload any picture related to the university. This screen contains profile and upload information.
 12. My profile screen is used to update the information about the user which would be visible in the connect people screen for other people.
 13. Organizations is about various clubs and organizations present in the university.
+14. If the user wants to logout from out application whenever he press back button in a particular screen, they will be redirected to dashboard screen which contains logout option in the side navigation bar.
 
 #### Test Credentials
+
 
 #### Supported Devices
