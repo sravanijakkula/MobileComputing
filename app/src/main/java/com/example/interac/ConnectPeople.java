@@ -42,38 +42,52 @@ public class ConnectPeople extends AppCompatActivity {
         Alumni584.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                alert();
+                Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
+                i.putExtra("s", "alumni");
+                startActivity(i);
             }
         });
 
         button2employees584.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                alert();
+                Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
+                i.putExtra("s", "emp");
+                startActivity(i);
             }
         });
         Faculty584.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                alert();
+                Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
+                i.putExtra("s", "flt");
+                startActivity(i);
+
             }
         });
         Ra584.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                alert();
+                Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
+                i.putExtra("s", "rlt");
+                startActivity(i);
+
             }
         });
         button5Stud584.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                alert();
+                Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
+                i.putExtra("s", "stu");
+                startActivity(i);
             }
         });
         Upd584.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                alert();
+                Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
+                i.putExtra("s", "upd");
+                startActivity(i);
             }
         });
 
@@ -91,32 +105,6 @@ public class ConnectPeople extends AppCompatActivity {
 
 
     public void alert() {
-        Intent i = new Intent(ConnectPeople.this, ConnectPeopleResults.class);
-        startActivity(i);
 
-//        AlertDialog.Builder alert = new AlertDialog.Builder(this);
-//
-//        alert.setTitle("Conenct");
-//        alert.setMessage("Enter ID To Connect");
-//
-//// Set an EditText view to get user input
-//        final EditText input = new EditText(this);
-//        alert.setView(input);
-//
-//        alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-//            public void onClick(DialogInterface dialog, int whichButton) {
-//
-//                // Do something with value!
-//            }
-//        });
-//
-//        alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-//            public void onClick(DialogInterface dialog, int whichButton) {
-//                // Canceled.
-//            }
-//        });
-//
-//        alert.show();
-//
     }
 }
