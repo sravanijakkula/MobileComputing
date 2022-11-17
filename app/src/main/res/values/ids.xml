@@ -7,4 +7,5 @@
     <item name="imageView8765" type="id" />
     <item name="welcome" type="id" />
     <item name="setting" type="id" />
+    <item name="gender" type="id" />
 </resources>

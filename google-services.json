@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "845784289581",
+    "project_id": "interac-aaff5",
+    "storage_bucket": "interac-aaff5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845784289581:android:440880f8a04082aca983a4",
+        "android_client_info": {
+          "package_name": "com.example.interac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845784289581-nomfdpso0tucgpi4nml2ossurtc7b8q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIN7C3vf7vO8yWq9s71xN0NDIIlIWxG5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845784289581-nomfdpso0tucgpi4nml2ossurtc7b8q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
