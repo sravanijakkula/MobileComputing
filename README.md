@@ -54,13 +54,13 @@ This android project concept is one of those rare ideas that has the potential t
 14. If the user wants to logout from out application whenever he press back button in a particular screen, they will be redirected to dashboard screen which contains logout option in the side navigation bar.
 
 #### Test Credentials
-Test : Sign in existing user
-Test : Sign up new user
-Test : User can post a picture in snapshots screen
-Test : User can edit his/her profile info
-Test : User can contact any of the category in connect people screen
-Credentials:
-Demo username: sravaninavi@gmail.com
+Test : Sign in existing user<br>
+Test : Sign up new user<br>
+Test : User can post a picture in snapshots screen<br>
+Test : User can edit his/her profile info<br>
+Test : User can contact any of the category in connect people screen<br>
+Credentials:<br>
+Demo username: sravaninavi@gmail.com<br>
 Demo password: sravs123
 
 #### Supported Devices
