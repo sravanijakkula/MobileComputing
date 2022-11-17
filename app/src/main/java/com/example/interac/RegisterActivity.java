@@ -1,6 +1,7 @@
 package com.example.interac;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -12,9 +13,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.interac.utils.EmailValidation;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 //import com.example.interac.DB.SQLiteHelper;
 
@@ -24,7 +35,8 @@ public class RegisterActivity extends AppCompatActivity {
     TextView textViewLogin11;
     EditText editTextTextUN, editTextTextESid, editTextTextPsw, editTextTextCpsw;
     SQLiteDatabase sqLiteDatabaseObj;
-    
+    FirebaseAuth fa = FirebaseAuth.getInstance();
+    FirebaseFirestore fs = FirebaseFirestore.getInstance();
     Cursor cursor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_register);
 
-    //    sqLiteHelper = new SQLiteHelper(this);
+        //    sqLiteHelper = new SQLiteHelper(this);
 
         textViewLogin11 = (TextView) findViewById(R.id.textViewLogin11);
 
@@ -49,14 +61,40 @@ public class RegisterActivity extends AppCompatActivity {
 
         buttonRegister = (Button) findViewById(R.id.buttonRegister);
         buttonRegister.setOnClickListener(new View.OnClickListener() {
-
-
             @Override
             public void onClick(View view) {
 
                 if (validate()) {
-                    Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-                    startActivity(intent);
+
+                    fa.createUserWithEmailAndPassword( editTextTextESid.getText().toString(), editTextTextPsw.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()) {
+                                Map<String, String> user = new HashMap<>();
+                                user.put("email", editTextTextESid.getText().toString());
+                                user.put("username", editTextTextUN.getText().toString());
+                                user.put("uid",  task.getResult().getUser().getUid());
+                                fs.collection("User").document(editTextTextUN.getText().toString()).set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                                        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                                        myEdit.putString("email", editTextTextESid.getText().toString());
+                                        myEdit.putString("username", editTextTextUN.getText().toString());
+                                        myEdit.putString("uid", task.getResult().getUser().getUid());
+                                        myEdit.apply();
+                                        Toast.makeText(getApplicationContext(), "Register Successful", Toast.LENGTH_SHORT).show();
+
+                                        finish();
+                                        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                                        startActivity(intent);
+                                    }
+                                });
+                            } else {
+                                Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    });
                 }
 
             }
@@ -66,7 +104,7 @@ public class RegisterActivity extends AppCompatActivity {
         textViewLogin11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(RegisterActivity.this, LaunchScreen.class);
+                Intent i = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(i);
             }
         });

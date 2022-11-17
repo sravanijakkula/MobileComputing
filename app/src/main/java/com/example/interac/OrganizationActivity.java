@@ -23,5 +23,54 @@ public class OrganizationActivity extends AppCompatActivity {
 
 
         setContentView(R.layout.activity_organization);
-        }
+
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationActivity.this, othersActivity.class);
+                i.putExtra("s", "aa");
+                startActivity(i);
+            }
+        });
+        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationActivity.this, othersActivity.class);
+                i.putExtra("s", "go");
+                startActivity(i);
+            }
+        });
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationActivity.this, othersActivity.class);
+                i.putExtra("s", "st");
+                startActivity(i);
+            }
+        });
+        findViewById(R.id.button6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationActivity.this, othersActivity.class);
+                i.putExtra("s", "sp");
+                startActivity(i);
+            }
+        });
+        findViewById(R.id.button7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationActivity.this, othersActivity.class);
+                i.putExtra("s", "mlt");
+                startActivity(i);
+            }
+        });
+        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OrganizationActivity.this, othersActivity.class);
+                i.putExtra("s", "pf");
+                startActivity(i);
+            }
+        });
+    }
 }
