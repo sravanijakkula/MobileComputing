@@ -57,3 +57,5 @@ This android project concept is one of those rare ideas that has the potential t
 
 
 #### Supported Devices
+
+#### APK
