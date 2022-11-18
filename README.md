@@ -73,10 +73,10 @@ username: sravaninavi@gmail.com<br>
 password: sravs123
 
 ### Supported Devices
-minSdk 28
-targetSdk 32
-versionCode 1
-versionName "1.0"
+minSdk 28 <br>
+targetSdk 32 <br>
+versionCode 1 <br>
+versionName "1.0" <br>
 
 ### Persistent Data
 Firebase databse to store and retrieve data
