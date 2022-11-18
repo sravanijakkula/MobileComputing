@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.interac.admin.AdminActivity;
+
 public class LaunchScreen extends AppCompatActivity {
 
     @Override
@@ -33,6 +35,17 @@ public class LaunchScreen extends AppCompatActivity {
             }
 
         });
+
+        Button button2 =(Button) findViewById(R.id.button9);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(LaunchScreen.this, AdminActivity.class);
+                startActivity(i);
+            }
+
+        });
+
         Button button1 =(Button) findViewById(R.id.button6);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +53,6 @@ public class LaunchScreen extends AppCompatActivity {
                 Intent i = new Intent(LaunchScreen.this, RegisterActivity.class);
                 startActivity(i);
             }
-
         });
     }
 }
