@@ -64,5 +64,17 @@ Demo username: sravaninavi@gmail.com<br>
 Demo password: sravs123
 
 #### Supported Devices
+minSdk 28
+targetSdk 32
+versionCode 1
+versionName "1.0"
+
+#### Persistent Data
+Firebase databse to store and retrieve data
+
+#### Libraries
+Android: xml, Java
+Server: Firebase
+Backend: Firebase by google
 
 #### APK
