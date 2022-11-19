@@ -82,8 +82,6 @@ versionName "1.0" <br>
 Firebase databse to store and retrieve data
 
 ### Libraries
-Android: xml, Java
-Server: Firebase
-Backend: Firebase by google
-
-### APK
+Android: xml, Java <br>
+Server: Firebase <br>
+Backend: Firebase by google <br>
