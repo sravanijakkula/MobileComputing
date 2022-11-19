@@ -69,8 +69,10 @@ This screen provides information about the user. Information can be his/her nick
 
 ### Test Credentials
 #### User Credentials:
-username: sravaninavi@gmail.com<br>
-password: sravs123
+username: Nikhila21<br>
+password: Nikhila@21 <br>
+Email Id: interacproject@gmail.com <br>
+Email Password: Interac2022
 
 ### Supported Devices
 minSdk 28 <br>
