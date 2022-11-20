@@ -22,11 +22,11 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
         android:layout_marginTop="384dp"
         android:backgroundTint="#9D10B5"
-        android:text="USER LOGIN"
+        android:text="LOGIN"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20dp"
@@ -42,8 +42,8 @@
     <Button
         android:id="@+id/button6"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="163dp"
         android:backgroundTint="#9D10B5"
         android:text="SIGNUP"
@@ -54,23 +54,9 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button9" />
+        app:layout_constraintTop_toBottomOf="@id/button4"
+        app:layout_constraintVertical_bias="0.301" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#9D10B5"
-        android:text="ADMIN LOGIN"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:cornerRadius="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
