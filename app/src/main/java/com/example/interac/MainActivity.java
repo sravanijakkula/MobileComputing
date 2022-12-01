@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 }
             }
-        }, 2000); //time in milliseconds
+        }, 5000); //time in milliseconds
 
     }
 }
